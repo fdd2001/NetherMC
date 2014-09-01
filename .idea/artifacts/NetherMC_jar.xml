@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="NetherMC:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/NetherMC_jar</output-path>
+    <root id="archive" name="NetherMC.jar">
+      <element id="module-output" name="NetherMC" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

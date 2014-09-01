@@ -1,0 +1,33 @@
+name: FloCraft
+version: 1.0.6
+author: fdd2001
+main: me.fdd2001.nethermc.NetherMC
+commands:
+    explode:
+        description: Blows up the specified player. DOES TERRAIN DAMAGE!
+        usage: /<command> [player]
+    lightning:
+        description: Strikes the player with a lightning.
+        usage: /<command> [player]
+    lightningkill:
+        description: Strikes the player with a lightning that kills him.
+        usage: /<command> [player]
+    creeper:
+        description: Spawns a creeper at the players location.
+        usage: /<command> [player]
+    togglearrowride:
+        description: Toggles riding arrows.
+        usage: /<command>
+    togglesnowball:
+        description: Strikes a lightning to where snowballs land.
+        usage: /<command>
+    dynamite:
+        description: Gives dynamite.
+        usage: /<command>
+    arrow:
+        description: Spawns arrows at the players location.
+        usage: /<command>
+    kickplayer:
+        description: Kicks a player with specified message.
+        usage: /<command> [player] [griefen/hacken]
+depend: [BarAPI]
